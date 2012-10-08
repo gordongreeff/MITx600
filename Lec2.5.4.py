@@ -3,9 +3,7 @@
 x = 3
 x = x * x
 
-print x
+print (x)
 
-y = int (raw_input ('Pick a number: '))
-y = y * y
-
-print y
+y = float (raw_input ('Pick a number: '))
+print (y * y)
